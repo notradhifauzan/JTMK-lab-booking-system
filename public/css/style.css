@@ -1,0 +1,33 @@
+body {
+    font-size: small;
+    background: url("../img/backgrounds/bg3.jpg") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-computer {
+    background-image: url("../img/backgrounds/computer_lab.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.text-header {
+    color: white;
+    font-weight: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    flex-shrink: 0;
+}
